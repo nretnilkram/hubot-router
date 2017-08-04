@@ -1,5 +1,5 @@
 # Description:
-#   This is a web router which will resond to certain requests
+#   This is a web router which will resond to certain requests.
 #
 # Notes:
 #   This will give provide an endpoint that can be pinged to keep the server alive.
