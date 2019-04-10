@@ -1,7 +1,7 @@
 {
   "name": "hubot-router",
   "description": "A simple router for hubot",
-  "version": "17.8.4",
+  "version": "19.4.9",
   "author": "Nretnil Kram <signkram@gmail.com>",
   "license": "MIT",
   "keywords": [
@@ -16,7 +16,7 @@
     "url": "https://github.com/nretnilkram/hubot-router/issues"
   },
   "dependencies": {
-    "hubot": "2.x"
+    "hubot": "3.x"
   },
   "main": "index.coffee"
 }
