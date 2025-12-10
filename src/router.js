@@ -5,7 +5,7 @@
 //   This will provide an endpoint that can be pinged to keep the server alive.
 //
 
-module.exports = (robot) => {
+export default (robot) => {
   robot.router.get('/', (req, res) => {
     res.send('You are at /');
   });
