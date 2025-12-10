@@ -3,8 +3,8 @@ const path = require('path');
 
 module.exports = (robot, scripts) => {
   const scriptsPath = path.resolve(__dirname, 'src');
-  fs.exists(scriptsPath, (exists) => {
-    if (exists) {
+  fs.access(scriptsPath, fs.constants.F_OK, (err) => {
+    if (!err) {
       const scriptFiles = fs.readdirSync(scriptsPath);
       for (const script of scriptFiles) {
         if (scripts != null && !scripts.includes('*')) {
